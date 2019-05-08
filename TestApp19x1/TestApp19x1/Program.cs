@@ -11,6 +11,9 @@ namespace TestApp19x1
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World");
+            Console.WriteLine("Hello World 2");
+            Messages messages = new Messages();
+            Console.WriteLine(messages.message1);
             Console.ReadKey();
         }
     }
