@@ -10,5 +10,10 @@ namespace TestApp19x1
     {
         public string message1 = "Hello World3";
         public string message2 = "Hello World4";
+
+        public string GetMessage1()
+        {
+            return message1;
+        }
     }
 }
